@@ -82,6 +82,7 @@ Future Features
 
 TESTING
 
+Checked CSS Stylesheet correctly linkd to HTML but changing font-family
 
 DEVICES
 
