@@ -32,6 +32,12 @@ INITIAL IDEA CONCEPT
 
 WIREFRAMES
 
+Homepage Wireframe: https://share.balsamiq.com/c/iVQGd9XuhAcpKYs74jEGpw.png
+
+Ethos Wireframe: https://share.balsamiq.com/c/5G17myjCyHJp7apfmPxLPf.png
+
+Contact Wireframe: https://share.balsamiq.com/c/fkkBXAXKKYudwGk7BzkQvo.png
+
 UX/UI User Experience Design
 
 USER STORIES
