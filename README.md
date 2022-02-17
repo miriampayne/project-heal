@@ -1,108 +1,172 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Milestone Portfolio Project 1 - HTML and CSS
+Project Heal
 
-Welcome Miriam Payne,
+CONTENTS
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+PURPOSE
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The sole purpose of creating this website is completing the first Milestone Project for the Code Institute's Full Stack Developer course. It was built using the knowledge gained from the HTML and CSS Essentials Modules.
 
-## Gitpod Reminders
+The target audience for this product is users looking for self improvement. The main focus of the site is educating users, enabling them to understand Project Heal’s mission and allowing them to sign up to a newsletter for further guidance and latest news/events. Therefore this website is aimed at anyone who is looking to gain more insight into alternative/holistic healing and wishes to boost their mental and/or physical state, or indeed anyone looking to connect with like-minded individuals through local events. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+PRODUCT
+Offering users the ability to sign up for free holistic healing advice that is issued via newsletter which combines information on popular mind and body techniques with traditional spiritual wisdom and any local news/events that might interest or assist in the user’s journey. The website also helps users to understand the 4 main categories that can:
+- create a shift in consciousness
+- increase concentration and mindfulness
+- assist in reconnecting with nature
+- promote optimum health and happiness
 
-`python3 -m http.server`
+Local events hosted by external parties that users can attend are listed on Meetup or Eventbrite and shared via the Project Heal’s newsletter. Users can become a member by signing up to the Project Heal newsletter via the Contact Form on the Project Heal website. 
 
-A blue button should appear to click: _Make Public_,
+MISSION:
+Project Heal mission is to facilitate living a healthy and happy lifestyle and spread awareness of the ever increasing demands of modern society which are causing more individuals than ever before to seek self-help for issues that may be harmful in the long run if left untreated but are all too often put on a waitlist for support. We want to enable more people to take immediate action on their own health before preventable illnesses become yet another global crisis that mankind must face. 
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Take a Look Here: 
 
-A blue button should appear to click: _Make Public_,
+FINAL DESIGN
 
-Another blue button should appear to click: _Open Browser_.
+Image: http://ami.responsivedesign.is/
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+INITIAL IDEA CONCEPT
 
-To log into the Heroku toolbelt CLI:
+WIREFRAMES
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+UX/UI User Experience Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+USER STORIES
 
-------
+First Time Visitor Goals
+* To easily understand the main purpose of the site
+* To learn about the organisation.
+* To intuitively navigate throughout the site.
+* To be able to view the website and content clearly on any device, especially mobile.
 
-## Release History
+Returning Visitor Goals
+* To contact the organisation so they can request more information.
+* To sign up to the newsletter
+* To add new contact details
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Frequent Visitor Goals
+* To check to see if there is any new guidance
+* To check if any additions to the site’s features.
+* To get alternative contact details for the organisation (email/phone)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+DESIGN
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+All Pages contain a Navigation menu at the top of the Webpage that directs the user to a new Page to allow users to Navigate the site easily. The Nav Menu is repositioned on a Mobile device to make use of space on smaller devices.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Business Goals
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Target Audience
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+User Goals
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+FEATURES
+Existing Features
+Home
+- Nav Bar
+- Hero Image
+- Footer
+Ethos
+Contact
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Future Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+TESTING
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+DEVICES
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Validator Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+Lighthouse
 
-## FAQ about the uptime script
+Chrome Developer Tools & Responsive
 
-**Why have you added this script?**
+Links
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Browsers
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Accessibility
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+FIXED BUGS AND ERRORS
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+UNRESOLVED BUGS OR ERRORS
 
-**Can I opt out?**
+FUNCTIONALITY
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+TECHNOLOGIES USED
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+PROGRAMS USED
 
-**Anything more?**
+DEPLOYMENT
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Creating My Website
 
----
+Git Hub Pages
 
-Happy coding!
+Forking a repo
+
+Cloning a repo
+
+
+REMOTE DEPLOYMENT:
+
+HOW TO FORK A REPOSITORY:
+
+HOW TO CLONE A REPOSITORY:
+
+HOW TO MAKE A LOCAL CLONE
+
+
+CREDITS AND REFERENCES
+
+IMAGES AND INFORMATION
+
+
+Content
+
+Information on Potential Use Case
+https://www.theguardian.com/science/2022/jan/02/attention-span-focus-screens-apps-smartphones-social-media
+
+Media
+
+Images
+
+Videos
+
+CODE
+
+
+Flexbox tutorials
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://daily-dev-tips.com/posts/chrome-devtools-flex-debugger/
+
+Responsive Design Media Queries tutorials
+
+
+Tools
+
+Balsamiq Wireframes - https://balsamiq.cloud/
+HTML - W3C Validator Validating my HTML
+CSS - Jigsaw Validator Validating my CSS
+Chrome Lighthouse and Chrome Developer Tools To check website performance
+Gitpod Dev Environment using GIT to commit changes to Github
+Github GithHub is the hosting site used to store the source code for the Website and Git Pages is used for the deployment of the live site.
+Am I Responsive used to test responsiveness of the website at different screen sizes: http://ami.responsivedesign.is/
+
+ACKNOWLEDGEMENTS:
+
+
+* I'd like to thank my mentor Ben Kavanagh for his unparalleled guidance, patience and support throughout my project: https://github.com/BAK2K3
+* David Bowers, 5p Lead, for taking time out of work to jump on both informal calls and also webinars on CSS positioning and flexbox: https://github.com/dnlbowers
+* Code institute for the Tutors on the course.
+* Family, work colleagues and friends for their support, encouragement and patience whilst I battle the time management to juggle everything.
+* Fellow community members on CI Slack workspace for sharing issues, hints, tips and advice
