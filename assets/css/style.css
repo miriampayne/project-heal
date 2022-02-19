@@ -37,6 +37,7 @@ h1, h2 {
     line-height: 75px; 
 }
 
+/* border-bottom is for active class */
 .push {
     margin-left: auto;
     border-bottom: 1px solid #3a3a3a;
@@ -55,6 +56,8 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.active {
-    
+#hero-image {
+    height auto;
+    width: 100%;
+    background: url('../images/pexels-julia-volk-7292969.jpg') no-repeat center center;
 }
