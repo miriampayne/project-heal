@@ -69,6 +69,7 @@ h1, h2 {
     height:600px;
     width: 100%;
     background: url('../images/pexels-julia-volk-7292969.jpg') no-repeat center center;
+    background-color: #8fbc8f;
     background-size: cover;
 
     /* animate zoom effect on page load */
