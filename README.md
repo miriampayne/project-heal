@@ -107,6 +107,8 @@ FIXED BUGS AND ERRORS
 
 UNRESOLVED BUGS OR ERRORS
 
+Need to get nav menu to sit centre under logo with media queries
+
 FUNCTIONALITY
 
 TECHNOLOGIES USED
@@ -143,6 +145,9 @@ Content
 Information on Potential Use Case
 https://www.theguardian.com/science/2022/jan/02/attention-span-focus-screens-apps-smartphones-social-media
 
+Inspiration sites: 
+Love Running 
+
 Media
 
 Images
@@ -151,10 +156,14 @@ Videos
 
 CODE
 
+Google Fonts https://fonts.google.com/
 
 Flexbox tutorials
+CSS Positioning Webinar: https://code-institute-room.slack.com/archives/C02RGGLDJR3/p1645203382787989?thread_ts=1641830243.003600&cid=C02RGGLDJR3
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 https://daily-dev-tips.com/posts/chrome-devtools-flex-debugger/
+Tip from @seán_ci on slack community: How to easily create a Navigation Menu with Flexbox
+W3Schools: https://www.w3schools.com/css/css3_flexbox.asp
 
 Responsive Design Media Queries tutorials
 
@@ -174,6 +183,11 @@ ACKNOWLEDGEMENTS:
 
 * I'd like to thank my mentor Ben Kavanagh for his unparalleled guidance, patience and support throughout my project: https://github.com/BAK2K3
 * David Bowers, 5p Lead, for taking time out of work to jump on both informal calls and also webinars on CSS positioning and flexbox: https://github.com/dnlbowers
-* Code institute for the Tutors on the course.
+* Tip from @seán_ci on slack community: How to easily create a Navigation Menu with Flexbox  
+* Tutors on the course, especially Ed who who helped with caching issues
 * Family, work colleagues and friends for their support, encouragement and patience whilst I battle the time management to juggle everything.
 * Fellow community members on CI Slack workspace for sharing issues, hints, tips and advice
+* README Inspirations:
+Love Running https://github.com/Code-Institute-Solutions/readme-template
+https://github.com/TechCentreUK/Eco-Print
+https://github.com/Chr15w1986/Portfolio-1
