@@ -37,7 +37,8 @@ h1, h2 {
     line-height: 75px; 
 }
 
-/* border-bottom is for active class */
+/* border-bottom on active page */
+
 .push {
     margin-left: auto;
     border-bottom: 1px solid #3a3a3a;
@@ -56,30 +57,30 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image 
-#hero-image {
-    height auto;
-    width: 100%;
-    background: url('../images/pexels-julia-volk-7292969.jpg') center cover no-repeat;
-}
-.hero-image {
-    background: url('../images/pexels-julia-volk-7292969.jpg') no-repeat center top;
-    background-size: cover;
-  }
-  @media (max-width: 768px) {
-    background: url('') no-repeat center top;
-  }
-*/
 /* hero background image */
-.bgimage {
-    height:100vh;
-    background: url('../images/pexels-julia-volk-7292969.jpg');
-    background-size:cover;
-    position:relative;
+
+#hero-outer {
+    height:600px;
+    width: 100%;
+    overflow:hidden; 
 }
-/* text css above hero image*/
+
+.hero-image {
+    height:600px;
+    width: 100%;
+    background: url('../images/pexels-julia-volk-7292969.jpg') no-repeat center center;
+    background-size: cover;
+
+    /* animate zoom effect on page load */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* text on top of hero image*/
+
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 .hero_desc {
     font-size: 2rem;
@@ -91,4 +92,15 @@ h1, h2 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+/* hero zoom */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
