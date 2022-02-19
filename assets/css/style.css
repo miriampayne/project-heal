@@ -26,12 +26,35 @@ h1, h2 {
     font-size: 300%;
 }
 
+/* navigation links */
+
 .nav {
     display: flex;
-    list-style: none;
+    list-style-type: none;
     flex-wrap: wrap;
-  }
+    font-size: 110%;
+    letter-spacing: 3px;  
+    line-height: 75px; 
+}
 
 .push {
-      margin-left: auto;
-  }
+    margin-left: auto;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.nav li {
+    margin-right: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    
+}

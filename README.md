@@ -73,6 +73,8 @@ Existing Features
 Home
 - Nav Bar
 - Hero Image
+- About
+- Ethos links
 - Footer
 Ethos
 Contact
@@ -82,7 +84,8 @@ Future Features
 
 TESTING
 
-Checked CSS Stylesheet correctly linkd to HTML but changing font-family
+- Checked CSS Stylesheet correctly linkd to HTML but changing font-family
+- Tested color inheritence on body using color red for styling navigation menu items
 
 DEVICES
 
