@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     font-size: 300%;
     color: #7d97ad;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -69,7 +70,7 @@ h1, h2 {
 .hero-image {
     height:600px;
     width: 100%;
-    background: url('../images/pexels-julia-volk-7292969.jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
     background-color: #8fbc8f;
     background-size: cover;
 
@@ -82,7 +83,7 @@ h1, h2 {
 /* text on top of hero image*/
 
 .hero_title {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 .hero_subscribe {
     font-size: 1rem;
@@ -115,14 +116,75 @@ h1, h2 {
 
 /* Club Ethos */
 
-.ethos {
-    color: #7d97ad;
-    font-size: 30px;
+#ethos {
+    margin: 30px;
 }
 
-ethos-container {
+.ethos {
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+}
+
+p {
+    padding: 10px;
+}
+
+.foundations {
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+}
+
+.foundations-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     text-align: center;
+  }
+
+#move-container {
+    height: 300px;
+    max-width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/move.jpg') no-repeat center;
+    background-color: #8fbc8f;
+}
+
+#nourish-container {
+    height: 300px;
+    max-width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/nourish.jpg') no-repeat center;
+    background-color: #8fbc8f;
+}
+
+#rest-container {
+    height: 300px;
+    max-width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/rest.jpg') no-repeat center;
+    background-color: #8fbc8f;
+}
+
+#think-container {
+    height: 300px;
+    max-width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/think.jpg') no-repeat center;
+    background-color: #8fbc8f;
+}
+
+.box {
+    width: 100%;
+    font-size: 3rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+@media screen and (min-width: 930px) {
+    .box {
+      width: 300px;
+    }
   }
