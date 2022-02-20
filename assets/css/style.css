@@ -62,7 +62,7 @@ h1, h2 {
 #hero-outer {
     height:600px;
     width: 100%;
-    overflow:hidden; 
+    overflow:hidden;
 }
 
 .hero-image {
@@ -83,8 +83,14 @@ h1, h2 {
 .hero_title {
     font-size: 4rem;
 }
-.hero_desc {
-    font-size: 2rem;
+.hero_subscribe {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .hero-text {
     text-align: center;
@@ -92,7 +98,7 @@ h1, h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #ffffff;
 }
 
 /* hero zoom */
