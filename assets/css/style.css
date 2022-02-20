@@ -55,7 +55,7 @@ h1, h2 {
 }
 
 .nav a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #7d97ad;
 }
 
 /* hero background image */
@@ -118,8 +118,6 @@ h1, h2 {
 .ethos {
     color: #7d97ad;
     font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 ethos-container {

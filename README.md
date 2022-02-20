@@ -155,6 +155,8 @@ Media
 
 Images
 
+Hero Image: Photo by Julia Volk https://www.pexels.com/@julia-volk from Pexels
+
 Videos
 
 CODE
