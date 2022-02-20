@@ -128,6 +128,7 @@ h1, h2 {
 
 p {
     padding: 10px;
+    text-align: justify;
 }
 
 .foundations {
@@ -147,35 +148,34 @@ p {
 #move-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/move.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/move.jpg') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 #nourish-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/nourish.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/nourish.jpg') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 #rest-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/rest.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/rest.jpg') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 #think-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/think.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/think.jpg') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 .box {
     width: 100%;
     font-size: 3rem;
-    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     color: #ffffff;
@@ -193,6 +193,7 @@ p {
 .learn-more {
     font-size: 1rem;
     padding: 10px;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     color: #ffffff;
