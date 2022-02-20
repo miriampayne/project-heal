@@ -24,6 +24,7 @@ h1, h2 {
 
 #logo {
     font-size: 300%;
+    color: #7d97ad;
 }
 
 /* navigation links */
@@ -41,7 +42,7 @@ h1, h2 {
 
 .push {
     margin-left: auto;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #7d97ad;
 }
 
 .nav li {
@@ -50,7 +51,7 @@ h1, h2 {
 
 .nav a {
     text-decoration: none;
-    color: inherit;
+    color: #7d97ad;
 }
 
 .nav a:hover {
@@ -111,3 +112,19 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
+/* Club Ethos */
+
+.ethos {
+    color: #7d97ad;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ethos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
