@@ -197,12 +197,6 @@ p {
     color: #8fbc8f;
 }
 
-@media screen and (min-width: 930px) {
-    .box {
-      width: 300px;
-    }
-  }
-
 /* footer */
 
 /* social media icons styling */
@@ -239,3 +233,24 @@ h3 {
 #email:hover {
     color: #8fbc8f;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 930px) {
+    .box {
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    .nav {
+        justify-content: center;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        width: 300px;
+    }
+    .push {
+        margin-left: 10px;
+    }
+  }
