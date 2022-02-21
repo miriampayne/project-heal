@@ -48,7 +48,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #7d97ad;
+    border-bottom: 1px solid #3a3a3a;;
 }
 
 .nav li {
@@ -57,11 +57,11 @@ h1, h2 {
 
 .nav a {
     text-decoration: none;
-    color: #7d97ad;
+    color: #3a3a3a;;
 }
 
 .nav a:hover {
-    border-bottom: 1px solid #7d97ad;
+    border-bottom: 1px solid #3a3a3a;;
 }
 
 /* hero background image */
@@ -247,6 +247,14 @@ h3 {
 #email:hover {
     color: #8fbc8f;
 }
+
+/* Explore Page */
+
+img {
+    border-radius: 8px;
+    height: autopx;
+    width: 100%;
+  }
 
 /* Media Queries */
 
