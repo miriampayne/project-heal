@@ -70,7 +70,7 @@ h1, h2 {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-color: #8fbc8f;
     background-size: cover;
 
@@ -139,6 +139,7 @@ p {
 .foundations {
     text-align: center;
     font-size: 3rem;
+    padding: 0 0 30px 0;
 }
 
 .foundations-container {
@@ -152,28 +153,28 @@ p {
 #move-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/move.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/move.webp') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 #nourish-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/nourish.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/nourish.webp') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 #rest-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/rest.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/rest.webp') no-repeat center center;
     background-color: #8fbc8f;
 }
 
 #think-container {
     height: 300px;
     max-width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/think.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/think.webp') no-repeat center center;
     background-color: #8fbc8f;
 }
 
@@ -215,7 +216,7 @@ p {
 #footer {
     background-color: #7d97ad;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 h3 {
