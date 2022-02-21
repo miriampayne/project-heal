@@ -25,7 +25,7 @@ h1, h2 {
 #logo {
     font-size: 300%;
     color: #7d97ad;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 /* navigation links */
@@ -37,13 +37,17 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 3px;  
     line-height: 75px; 
+    padding: 10px;
 }
 
 /* border-bottom on active page */
 
 .push {
     margin-left: auto;
-    border-bottom: 1px solid #7d97ad;
+}
+
+.active {
+    border-bottom: 1px solid #7d97ad;s
 }
 
 .nav li {
