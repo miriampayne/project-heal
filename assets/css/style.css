@@ -94,6 +94,11 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.hero-subscribe:hover {
+    color: #8fbc8f;
+}
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -127,7 +132,7 @@ h1, h2 {
 }
 
 p {
-    padding: 10px;
+    padding: 30px;
     text-align: justify;
 }
 
@@ -184,6 +189,10 @@ p {
     letter-spacing: 3px;
 }
 
+.box:hover {
+    color: #8fbc8f;
+}
+
 @media screen and (min-width: 930px) {
     .box {
       width: 300px;
@@ -193,7 +202,7 @@ p {
 .learn-more {
     font-size: 1rem;
     padding: 10px;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     color: #ffffff;
@@ -202,7 +211,7 @@ p {
     position: center;
 }
 
-/* footer */
+/* footer 
 
 .footer {
   position: fixed;
@@ -212,4 +221,22 @@ p {
   background-color: #7d97ad;
   color: #3a3a3a;
   text-align: center;
+}
+*/
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #8fbc8f;
+}
+.fab {
+    color: #3a3a3a;
+}
+/* footer styling */
+#footer {
+    background-color: #7d97ad;
+    text-align: center;
+    margin-top: 10px;
 }
