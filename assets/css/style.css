@@ -219,14 +219,14 @@ p {
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-tiktok:hover {
-    color: #8fbc8f;
+    color: #5f9f80;
 }
 .fab {
     color: #3a3a3a;
 }
 /* footer styling */
 #footer {
-    background-color: #7d97ad;
+    background-color: #acbdcb;
     text-align: center;
     margin-top: 30px;
 }
@@ -235,26 +235,70 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     padding: 10px 0 0 0;
+    color: #ffffff;
 }
 
 #email {
     text-align: center;
     text-decoration: none;
     padding: 0;
-    color: #ffffff;
+    color: #3a3a3a;
+    font-size: 1.25rem;
 }
 
 #email:hover {
-    color: #8fbc8f;
+    color: #5f9f80;
 }
 
 /* Explore Page */
 
-img {
+#explore-heading {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    border: 2px none #ccc;
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right:20%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
     border-radius: 8px;
-    height: autopx;
     width: 100%;
-  }
+    height: auto;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#reverse-row {
+    flex-direction: row-reverse;
+}
+
+#forward-row {
+    flex-direction: row;
+}
 
 /* Media Queries */
 
@@ -293,3 +337,14 @@ img {
       }
   }
 
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
