@@ -132,13 +132,12 @@ h1, h2 {
 }
 
 p {
-    padding: 30px;
+    padding: 10px 30px;
     text-align: justify;
 }
 
 .foundations {
     text-align: center;
-    padding: 30px;
     font-size: 3rem;
 }
 
@@ -199,30 +198,8 @@ p {
     }
   }
 
-.learn-more {
-    font-size: 1rem;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    position: center;
-}
+/* footer */
 
-/* footer 
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #7d97ad;
-  color: #3a3a3a;
-  text-align: center;
-}
-*/
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -239,4 +216,20 @@ p {
     background-color: #7d97ad;
     text-align: center;
     margin-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+#email {
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    color: #ffffff;
+}
+
+#email:hover {
+    color: #8fbc8f;
 }
