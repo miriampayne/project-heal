@@ -34,7 +34,26 @@
         </nav>
     </header>
 
-    
+    <section class="form-section">
+        <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2 class="form-header"><i class="fas fa-heartbeat"></i> Let's get you signed up!</h2>
+            <label for="mr">Dr.</label>
+            <input type="radio" name="prefix"  id="dr" value="dr" required>
+            <label for="trail">Mr.</label>
+            <input type="radio" name="prefix"  id="mr" value="mr">
+            <label for="both">Ms.</label>
+            <input type="radio" name="prefix"  id="ms" value="ms">
+            <br>
+            <br>
+            <label for="fname">First Name</label>
+            <input type="text" name="first_name" id="fname" class="text-input" required>
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name"  id="lname" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email_address"  id="email" class="text-input" required>
+            <input type="submit" value="Let's Do This!" class="join-button">
+        </form>
+    </section>
     
     <footer id="footer">
         <a href="contact.html" id="email">hello@projectheal.co.uk</a>
