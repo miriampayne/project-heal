@@ -22,7 +22,9 @@ Local events hosted by external parties that users can attend are listed on Meet
 
 Take a Look Here:
 
-**FINAL DESIGN**![](RackMultipart20220222-4-1atd3m4_html_a937bad950583f3e.png)
+**FINAL DESIGN**!
+
+![Responsive Design View of Project Heal](assets/images/final-look.png)
 
 Images taken from: [http://ami.responsivedesign.is/](http://ami.responsivedesign.is/)
 
@@ -121,7 +123,11 @@ Once testing was complete and i was more or less happy with the result i used va
 
 https://validator.w3.org/
 
+
+
 [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+
 
 All links to external websites open in a new browser tab. As this project is static and contains no back-end functionality at this time, the testing performed was on the visual effects and layout of the Website. Testing has been done on two main web browsers and all screen sizes down to 320px wide using the mobile simulator in Chrome Dev Tools.
 
@@ -143,9 +149,13 @@ Used Chrome Dev Tools to test various styles, especially for flex
 
 Main Page did not see any errors:
 
+![Main Page HTML Validation Response](assets/images/html-validator.png)
+
 ![](RackMultipart20220222-4-1atd3m4_html_799c1b09fea295cc.png)
 
 Whereas the Explore Page Requires some Fixes:
+
+![Explore Page Validation Response](assets/images/explore-validation-issues.png)
 
 ![](RackMultipart20220222-4-1atd3m4_html_578aa91105f6a69b.png)
 
@@ -155,11 +165,15 @@ For CSS, I used the following Validator:
 
 With no issues found like so:
 
+![CSS Validator](assets/images/css-validator.png)
+
 ![](RackMultipart20220222-4-1atd3m4_html_984a584d8f09ea23.png)
 
 **Lighthouse**
 
 Tests were run on Lighthouse for both mobile and desktop with full marks apart from accessibility due to my contrast colours in the heading which I looked at fixing but decided in the end the visual presentation was better when the logo colour matches the nav bar colour.
+
+![Lighthouse](assets/images/lighthouse.png)
 
 ![](RackMultipart20220222-4-1atd3m4_html_5ae3f80801f4fb90.png)
 
@@ -168,6 +182,8 @@ Tests were run on Lighthouse for both mobile and desktop with full marks apart f
 I used a simulator in Chrome Dev Tools
 
 **Chrome Developer Tools &amp; Responsive**
+
+![Chrome Dev Tools](assets/images/chrome-dev-tools.png)
 
 ![](RackMultipart20220222-4-1atd3m4_html_f62bcaa559e84717.png)
 
@@ -182,6 +198,8 @@ Fixed hero image not loading issue with code from FreeCodeCamp: [https://www.fre
 Zoom caused hero image to bleed over nav bar where overflow: hidden was not working due to some scoping, resolved with fixed height
 
 Mitigated the issue of the foundations box containers not spacing correctly by using Chrome Dev Tools and checking which flex value works best.
+
+![Flex Bug Solving](assets/images/flex.png)
 
 ![](RackMultipart20220222-4-1atd3m4_html_1e0102206ebd6068.png)
 
