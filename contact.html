@@ -36,13 +36,17 @@
 
     <section class="form-section">
         <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2 class="form-header"><i class="fas fa-heartbeat"></i> Subscribe to Our Newsletter</h2>
-            <label for="mr">Dr.</label>
+            <h2 class="form-header"><i class="fas fa-heartbeat"></i> Contact Us and Sign Up</h2>
+            <label for="dr">Dr.</label>
             <input type="radio" name="prefix"  id="dr" value="dr" required>
-            <label for="trail">Mr.</label>
+            <label for="mr">Mr.</label>
             <input type="radio" name="prefix"  id="mr" value="mr">
-            <label for="both">Ms.</label>
+            <label for="mrs">Mrs.</label>
+            <input type="radio" name="prefix"  id="mrs" value="mrs">
+            <label for="ms">Ms.</label>
             <input type="radio" name="prefix"  id="ms" value="ms">
+            <label for="nbinary">Non-Binary</label>
+            <input type="radio" name="prefix"  id="nbinary" value="nbinary">
             <br>
             <br>
             <label for="fname">First Name</label>
@@ -51,7 +55,13 @@
             <input type="text" name="last_name"  id="lname" class="text-input" required>
             <label for="email">Email Address</label>
             <input type="email" name="email_address"  id="email" class="text-input" required>
-            <input type="submit" value="Let's Do This!" class="join-button">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" class="text-input">
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message" class="text-input">
+            <input type="radio" name="subscribe"  id="subscribe" value="subscribe">
+            <label for="subscribe"> I would like to subscribe to the newsletter</label>
+            <input type="submit" value="Sign Me Up!" class="join-button">
         </form>
     </section>
     

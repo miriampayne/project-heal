@@ -323,6 +323,7 @@ h3 {
     position: absolute;
     left: 10%;  
     padding: 30px;
+    border-radius: 8px;
 }
 
 .signup-form h2 {
