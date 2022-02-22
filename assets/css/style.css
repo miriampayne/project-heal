@@ -318,7 +318,7 @@ h3 {
 .signup-form {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.7);
     max-width: 400px;
     position: absolute;
     left: 10%;  
@@ -354,8 +354,14 @@ h3 {
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+}
 
-/* Media Queries 
+.join-button:hover {
+    border: 2px solid #fafafa;
+    cursor: grab;
+}
+
+/* Media Queries */
 
 @media screen and (min-width: 930px) {
     .box {
@@ -404,4 +410,3 @@ h3 {
         display: block;
     }
 }
-*/
