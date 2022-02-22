@@ -48,7 +48,7 @@ h1, h2 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;;
+    border-bottom: 1px solid #7d97ad;
 }
 
 .nav li {
@@ -57,7 +57,7 @@ h1, h2 {
 
 .nav a {
     text-decoration: none;
-    color: #3a3a3a;;
+    color: #7d97ad;
 }
 
 .nav a:hover {
@@ -76,7 +76,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
-    background-color: #8fbc8f;
+    background-color: #8fbca6;
     background-size: cover;
 
     /* animate zoom effect on page load */
@@ -101,7 +101,7 @@ h1, h2 {
 }
 
 .hero-subscribe:hover {
-    color: #8fbc8f;
+    color: #8fbca6;
 }
 
 .hero-text {
@@ -172,28 +172,28 @@ p {
     height: 300px;
     max-width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/move.webp') no-repeat center center;
-    background-color: #8fbc8f;
+    background-color: #8fbca6;
 }
 
 #nourish-container {
     height: 300px;
     max-width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/nourish.webp') no-repeat center center;
-    background-color: #8fbc8f;
+    background-color: #8fbca6;
 }
 
 #rest-container {
     height: 300px;
     max-width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/rest.webp') no-repeat center center;
-    background-color: #8fbc8f;
+    background-color: #8fbca6;
 }
 
 #think-container {
     height: 300px;
     max-width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/think.webp') no-repeat center center;
-    background-color: #8fbc8f;
+    background-color: #8fbca6;
 }
 
 .box {
@@ -208,7 +208,7 @@ p {
 }
 
 .box:hover {
-    color: #8fbc8f;
+    color: #8fbca6;
 }
 
 /* footer */
@@ -257,8 +257,13 @@ h3 {
     flex-direction: column;
     align-content: center;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     font-size: 2rem;
+}
+
+#explore-container {
+    flex-wrap: wrap;
+    background-color: #8fbca6;
 }
 
 .container {
@@ -279,7 +284,7 @@ h3 {
     display: table;
 }
 
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+/* Float images inside the container to the left. Add a right margin, and style the image */
 .container img {
     border-radius: 8px;
     width: 100%;
@@ -290,6 +295,7 @@ h3 {
 .container span {
     font-size: 20px;
     margin-right: 15px;
+    color: #ffffff;
 }
 
 #reverse-row {
