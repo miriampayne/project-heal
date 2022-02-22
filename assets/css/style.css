@@ -358,11 +358,11 @@ h3 {
 
 @media screen and (min-width: 930px) {
     .box {
-      width: 300px;
+        width: 300px;
     }
-  }
+}
 
-  @media screen and (max-width: 930px) {
+@media screen and (max-width: 930px) {
     .nav {
         justify-content: center;
         margin-left: 30px;
@@ -370,35 +370,36 @@ h3 {
         line-height: 25px;
         width: 300px;
     }
+
     .push {
         margin-left: 10px;
     }
-  }
+}
 
-  @media screen and (max-width: 440px){
+@media screen and (max-width: 440px) {
     .foundations-container {
         display: flex;
         text-align: center;
         width: 100%;
         flex-wrap: wrap;
-      }
-  }
+    }
+}
 
-  @media screen and (max-width: 927px) {
+@media screen and (max-width: 927px) {
     .foundations-container {
         display: flex;
         text-align: center;
-      }
-  }
+    }
+}
 
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
     .container {
-      text-align: center;
+        text-align: center;
     }
-  
+
     .container img {
-      margin: auto;
-      float: none;
-      display: block;
+        margin: auto;
+        float: none;
+        display: block;
     }
-  }
+}
