@@ -20,7 +20,7 @@ Offering users the ability to sign up for free holistic healing advice that is i
 
 Local events hosted by external parties that users can attend are listed on Meetup or Eventbrite and shared via the Project Heal&#39;s newsletter. Users can become a member by signing up to the Project Heal newsletter via the Contact Form on the Project Heal website.
 
-Take a Look Here:
+Take a Look Here: [https://miriampayne.github.io/project-heal/](https://miriampayne.github.io/project-heal/)
 
 **FINAL DESIGN**!
 
