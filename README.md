@@ -1,15 +1,21 @@
-# **Project Heal**
+# **PROJECT HEAL**
 
 CONTENTS
 
 - Purpose
 - Product
+- Final Design
+- Initial Idea Concept
+- Wireframes
+- UI Design
+- Features
+- Testing
 
-PURPOSE
+**PURPOSE**
 
 The main focus of the site is educating users, enabling them to understand Project Heal&#39;s mission and allowing them to sign up to a newsletter for further guidance and latest news/events. Therefore this website is aimed at anyone who is looking to gain more insight into alternative/holistic healing and wishes to boost their mental and/or physical state, or indeed anyone looking to connect with like-minded individuals through local events.
 
-PRODUCT
+**PRODUCT**
 
 Offering users the ability to sign up for free holistic healing advice that is issued via newsletter which combines information on popular mind and body techniques with traditional spiritual wisdom and any local news/events that might interest or assist in the user journey. The website also helps users to understand the 4 main categories that can:
 
@@ -187,6 +193,15 @@ I used a simulator in Chrome Dev Tools
 
 ![](RackMultipart20220222-4-1atd3m4_html_f62bcaa559e84717.png)
 
+Chrome Dev Tools and Responsive Mode
+Chrome Dev Tools played a huge role in my testing on a day to day basis, i was able to edit my css in real time to confirm the code im writing had to correct output as i was coding. It mostly helped when Styling for responsive mode.
+
+Links
+I tested all links across all pages to make sure they all redirect to the correct pages. I also made sure that for links leadng to external websites i used the target _blank attribute to open a new tab so the user does not lose place on our website.
+
+Browsers
+I Tested compatibility across browsers by using Safari, Chrome and iOS Safari. As an extra measure i also tested browser compatibilty across more browsers using the plugin User-Agent Switcher.
+
 **ACCESSIBILITY**
 
 Reaching 96% on Accessibility, I am keen to tinker around with colour contrast some more to meet 100% accessibility on Lighthouse. ARIA labels and alts were added to images.
@@ -229,7 +244,7 @@ I would have liked to have spent a bit more time on responsiveness but I have ru
 
 **FUNCTIONALITY**
 
-**TECHNOLOGIES USED**
+
 
 **PROGRAMS USED**
 
@@ -237,19 +252,39 @@ I would have liked to have spent a bit more time on responsiveness but I have ru
 
 **Creating My Website**
 
+To create this project I used the Code Institute Gitpod Full Template by clicking the button labelled 'Use this template' within Github.
+Next i was directed to the 'create new repository from template page', choosing a repo name and finally created repository from template button.
+The commands used for commits throughout the project:
+‘git add . ’ - This command was used to add changes to files to the staging area before committing 
+git commit -m "commit message explaining the updates”’ - This command was used to to commit changes to the local repository. git push - This command is used to push all committed changes to the GitHub repository.
+
+I used python3 -m http.server to view the live preview
+
 **Git Hub Pages**
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (NOT at the top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. Click Save and the page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section. 
 
 **Forking a repo**
 
+Forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea. - This is the definition from Github Docs.
+1. Navigate to the GitHub Repository you want to fork.
+2. On the top right of the page under the header, click the fork button.
+3. Fork
+4. This will create a duplicate of the full project in your GitHub Repository.
+
 **Cloning a repo**
 
-**REMOTE DEPLOYMENT:**
-
-**HOW TO FORK A REPOSITORY:**
-
-**HOW TO CLONE A REPOSITORY:**
-
-**HOW TO MAKE A LOCAL CLONE**
+1. Navigate to the Github Repository you want to clone.
+2. Click the drop down menu labelled "Clone".
+3. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+4. Open your developement editor and open a terminal window in a directory of your choice.
+5. Use the 'git clone' command in terminal followed by the copied git URL.
+6. A clone of the project will be created locally on your local machine.
 
 **CREDITS AND REFERENCES**
 
