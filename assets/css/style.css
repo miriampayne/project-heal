@@ -157,7 +157,7 @@ p {
     width: 100%;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .bottom {
@@ -165,7 +165,7 @@ p {
     width: 100%;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #move-container {
@@ -237,7 +237,7 @@ h3 {
     color: #ffffff;
 }
 
-#email {
+#email-contact {
     text-align: center;
     text-decoration: none;
     padding: 0;
@@ -245,7 +245,7 @@ h3 {
     font-size: 1.25rem;
 }
 
-#email:hover {
+#email-contact:hover {
     color: #5f9f80;
 }
 
@@ -354,7 +354,7 @@ h3 {
     color: #fafafa;
     display: block;
 
-/* Media Queries */
+/* Media Queries 
 
 @media screen and (min-width: 930px) {
     .box {
@@ -403,3 +403,4 @@ h3 {
         display: block;
     }
 }
+*/
