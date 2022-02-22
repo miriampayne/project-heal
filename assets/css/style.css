@@ -157,7 +157,7 @@ p {
     width: 100%;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .bottom {
@@ -165,7 +165,7 @@ p {
     width: 100%;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #move-container {
